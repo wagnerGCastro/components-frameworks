@@ -1,0 +1,54 @@
+{
+  "name": "Testes",
+  "version": "1.0.0",
+  "description": "Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "keywords": [
+    "\"wordpress",
+    "theme",
+    "bootstrap\""
+  ],
+  "author": "Wagner Gomes de Castro",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/betonico/adopti-v2#readme",
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.0",
+    "popper.js": "^1.15.0",
+    "wow.js": "^1.2.2"
+  },
+  "devDependencies": {
+    "copy": "^0.3.2",
+    "event-stream": "^4.0.1",
+    "gulp": "^4.0.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp4-run-sequence": "^0.3.2",
+    "jshint": "^2.10.2",
+    "merge-stream": "^2.0.0",
+    "readable-stream": "^3.3.0",
+    "run-sequence": "^2.2.1"
+  }
+}
