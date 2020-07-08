@@ -387,27 +387,11 @@ gulp.task('sass', gulp.series( function() {
 // gulp.task('default', gulp.series( ['watch'] ));
 
 
-/**
- * Build para produção All, ou Build apenas de arquivos .css  ou .js
- * 
- * 2 -  Executar sempre quando há alterações em arquivos .css e .js e enviar para produção
- * 
- */ 
-//gulp.task('build', gulp.series( ['clean','jshint','copy','uglify','sass', 'cssmin'] ));
-
-// gulp.task('build', function (callback) {
-//     //return runSequence('clean', ['jshint','copy','uglify', 'cssmin'], callback);
-//     // return runSequence(['jshint','minjs', 'copy-minjs-prd', 'concat-js','cssmin','copy-fonts-prd'], callback);
-
-//     return runSequence('clean-dist-all', ['jshint','minjs', 'copy-minjs-prd', 'concat-js', 'cssmin', 'copy-fonts-prd'], callback);
-// });
-
-// gulp.task('build-css', function (callback) {
-//     //return runSequence('clean', ['jshint','copy','uglify', 'cssmin'], callback);
-//     return runSequence(['cssmin'], callback);
-// });
-
-// gulp.task('build-js', function (callback) {
-//     //return runSequence('clean', ['jshint','copy','uglify', 'cssmin'], callback);
-//     return runSequence(['jshint','minjs','concat-js'], callback);
-// });
+// Default
+gulp.task('default', gulp.series( function() {
+    gulp.watch([
+        'assets/sass/*.scss'
+    ], gulp.parallel(
+        ['sass']
+    ));
+}));

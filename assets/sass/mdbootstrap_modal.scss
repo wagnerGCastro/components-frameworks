@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+// Bootstrap
+@import "elements/mdboostrap/core/bootstrap/functions";
+@import "elements/mdboostrap/core/bootstrap/variables";
+@import "elements/mdboostrap/core/bootstrap/rfs";
+
+// CORE
+@import "elements/mdboostrap/core/mixins";
+// Your custom variables
+// @import "custom-variables";
+@import "elements/mdboostrap/core/colors";
+@import "elements/mdboostrap/core/variables";
+@import "elements/mdboostrap/core/global";
+@import "elements/mdboostrap/core/helpers";
+@import "elements/mdboostrap/core/typography";
+@import "elements/mdboostrap/core/masks";
+@import "elements/mdboostrap/core/waves";
+
+// FREE
+// @import "elements/mdboostrap/free/animations-basic";
+// @import "elements/mdboostrap/free/modules/animations-extended/module";
+@import "elements/mdboostrap/free/buttons";
+// @import "elements/mdboostrap/free/cards";
+// @import "elements/mdboostrap/free/dropdowns";
+// @import "elements/mdboostrap/free/input-group";
+// @import "elements/mdboostrap/free/navbars";
+// @import "elements/mdboostrap/free/pagination";
+// @import "elements/mdboostrap/free/badges";
+@import "elements/mdboostrap/free/modals";
+// @import "elements/mdboostrap/free/carousels";
+@import "elements/mdboostrap/free/forms";
+// @import "elements/mdboostrap/free/msc";
+// @import "elements/mdboostrap/free/footers";
+// @import "elements/mdboostrap/free/list-group";
+// @import "elements/mdboostrap/free/tables";
+// @import "elements/mdboostrap/free/depreciated";
+// @import "elements/mdboostrap/free/steppers";
+// @import "elements/mdboostrap/free/loader";
+// @import "elements/mdboostrap/free/treeview";
+// Free addons
+// @import "addons/datatables";
+// @import "addons/datatables2";
+// @import "addons/datatables-select";
+// @import "addons/datatables-select2";
+
+// @import "elements/mdboostrap/addons/addons";
+// @import "elements/mdboostrap/addons/addons";
+// @import "elements/mdboostrap/addons/hierarchical-display";
+// @import "elements/mdboostrap/addons/flag";
+// @import "elements/mdboostrap/addons/rating";
+
+// Your custom styles
+// @import "custom-styles";
